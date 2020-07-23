@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">LigaDaJusticaPAM</string>
+    <string name="bem_vindo">SEJA BEM VINDO(A)!</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="maisinfo">MAIS INFORMAÇÕES</string>
+    <string name="nivelacesso02">02</string>
+    <string name="nivelacesso03">03</string>
+    <string name="especiehumana">HUMANO</string>
+
+    <string name="mulhermaravilha">MULHER-MARAVILHA</string>
+    <string name="dianaprince">DIANA PRINCE</string>
+    <string name="idmulhermaravilha">02</string>
+    <string name="especiemulhermaravilha">AMAZONA</string>
+    <string name="habilidademulhermaravilha">FORÇA E CONTROLE MENTAL</string>
+    <string name="vulnerabilidademulhermaravilha">ARMAS HUMANAS</string>
+
+    <string name="batman">BATMAN</string>
+    <string name="brucewayne">BRUCE WAYNE</string>
+    <string name="idbatman">01</string>
+    <string name="habilidadebatman">ARTES MARCIAIS</string>
+    <string name="vulnerabilidadebatman">LADO EMOCIONAL</string>
+
+    <string name="flash">FLASH</string>
+    <string name="barryallen">BARRY ALLEN</string>
+    <string name="idflash">11</string>
+    <string name="habilidadeflash">VELOCIDADE</string>
+    <string name="vulnerabilidadeflash">TIROS, ARCOS, ETC.</string>
+
+    <string name="superman">SUPERMAN</string>
+    <string name="clarkkent">CLARK KENT</string>
+    <string name="idsuperman">03</string>
+    <string name="especiesuperman">KRYPTONIANO</string>
+    <string name="habilidadesuperman">FORÇA, VOO E RESISTÊNCIA</string>
+    <string name="vulnerabilidadesuperman">KRYPTONITA</string>
+
+    <string name="idheroi">ID: </string>
+    <string name="especieheroi">ESPÉCIE: </string>
+    <string name="habilidadesheroi">HABILIDADES: </string>
+    <string name="vulnerabilidadesheroi">VULNERABILIDADES: </string>
+    <string name="nivelacessoheroi">NÍVEL DE ACESSO: </string>
+
+    <string-array name="opcoes">
+        <item>SELECIONE...</item>
+        <item>MULHER-MARAVILHA</item>
+        <item>SUPERMAN</item>
+        <item>FLASH</item>
+        <item>BATMAN</item>
+    </string-array>
+</resources>

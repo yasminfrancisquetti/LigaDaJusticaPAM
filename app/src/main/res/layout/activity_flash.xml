@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flashimg"
+    tools:context=".FlashActivity">
+
+    <TextView
+        android:id="@+id/txtvwidheroi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:fontFamily="@font/cutive"
+        android:text="@string/idheroi"
+        android:textColor="#FEDF1B"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwbarryallen" />
+
+    <TextView
+        android:id="@+id/txtvwespecieheroi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/cutive"
+        android:text="@string/especieheroi"
+        android:textColor="#FEDF1B"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwidheroi" />
+
+    <TextView
+        android:id="@+id/txtvwhabilidadeheroi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/cutive"
+        android:text="@string/habilidadesheroi"
+        android:textColor="#FEDF1B"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwespecieheroi" />
+
+    <TextView
+        android:id="@+id/txtvwvulnerabilidadeheroi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/cutive"
+        android:text="@string/vulnerabilidadesheroi"
+        android:textColor="#FEDF1B"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwhabilidadeheroi" />
+
+    <TextView
+        android:id="@+id/txtvwnivelacessoheroi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/cutive"
+        android:text="@string/nivelacessoheroi"
+        android:textColor="#FEDF1B"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwvulnerabilidadeheroi" />
+
+    <TextView
+        android:id="@+id/txtvwbarryallen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cutive"
+        android:text="@string/barryallen"
+        android:textColor="#FEDF1B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvwflash" />
+
+    <TextView
+        android:id="@+id/txtvwflash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cutive"
+        android:text="@string/flash"
+        android:textColor="#FEDF1B"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnmaisinfo"
+        android:layout_width="324dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FEDF1B"
+        android:fontFamily="@font/cutive"
+        android:onClick="Direcionar"
+        android:text="@string/maisinfo"
+        android:textAlignment="center"
+        android:textColor="#BB0015"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwnivelacessoheroi" />
+
+    <ImageView
+        android:id="@+id/imgvwflash"
+        android:layout_width="252dp"
+        android:layout_height="253dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwflash"
+        app:srcCompat="@drawable/flashicon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
